@@ -1,7 +1,10 @@
-title = "New Event theme"
+title = "Home"
 url = "/"
 layout = "default"
 is_hidden = 0
+
+[carousel]
+id = 1
 ==
 {% partial 'template/intro'  %}
 
@@ -9,22 +12,15 @@ is_hidden = 0
   {% partial 'template/navbar' %}
 
 {% partial 'template/program'  %}
+{% partial 'template/locations'  %}
+{% partial 'template/speakers'  %}
 {% partial 'template/dresscode'    %}
         {% partial 'template/gifts' %}
         {% partial 'template/honeymoon' %}
         {% partial 'template/witnesses' %}
-
-
-
-
-
-
-
         {% partial 'template/footer' %}
 
     {% if this.theme.settings_gotop %}
         <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
     {% endif %}
-
-
 {% endif %}
