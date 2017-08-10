@@ -8,7 +8,7 @@
                 <h1 class="wow fadeInUp" data-wow-delay="1.6s">Stefanie & Sebastian</h2>
                 <h3 class="wow fadeInUp" data-wow-delay="1.6s">22.12.2017</h2>
 
-                {% if user == false %} {% partial 'template/login' %} {% endif %}
+                {% if user == false %} {% component 'account' %}{% endif %}
 
             </div>
 

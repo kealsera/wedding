@@ -22,6 +22,8 @@ http://www.templatemo.com/tm-486-new-event
         'assets/css/owl.carousel.css',
         'assets/css/style.css',
     ]|theme }}" rel="stylesheet">
+    {% styles %}
+    
 </head>
 <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 
@@ -38,9 +40,10 @@ http://www.templatemo.com/tm-486-new-event
         'assets/js/owl.carousel.min.js',
         'assets/js/smoothscroll.js',
         'assets/js/wow.min.js',
-        'assets/js/custom.js',
-        '@framework',
-        '@framework.extras']|theme }}"></script>
+        'assets/js/custom.js']|theme }}"></script>
+
+{% framework extras %}
+{% scripts %}
 
 </body>
 </html>

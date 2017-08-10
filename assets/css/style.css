@@ -70,7 +70,7 @@ a {
 }
 
 #detail, #video,
-#speakers, 
+#locations, 
 #program,
 #witnesses, 
 #honeymoon, footer {
@@ -79,7 +79,7 @@ a {
 }
 
 #detail,
-#speakers, #witnesses,
+#locations, #witnesses,
 footer {
   text-align: center;
 }
@@ -216,7 +216,7 @@ footer {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #66ccff;
+    color: #D42D31;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -226,7 +226,7 @@ footer {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #66ccff;
+    color: #D42D31;
 }
 
 .custom-navbar .navbar-toggle {
@@ -322,27 +322,27 @@ footer {
 /*---------------------------------------
    Speakers section              
 -----------------------------------------*/
-#speakers {
+#locations {
     background: #f9f9f9;
 }
 
-#speakers h3 {
+#locations h3 {
     font-size: 18px;
     margin-bottom: 0px;
 }
 
-#speakers h6 {
+#locations h6 {
   color: #666;
   margin-top: 4px;
 }
 
-#speakers img {
+#locations img {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
-#speakers .col-md-3 {
+#locations .col-md-3 {
     display: block;
     width: 100%;
     padding-top: 30px;
@@ -350,7 +350,7 @@ footer {
     margin-bottom: 22px;
 }
 
-#speakers .speakers-wrapper {
+#locations .speakers-wrapper {
     background: #ffffff;
     padding-bottom: 22px;
 }
@@ -424,15 +424,15 @@ footer {
 }
 
 .register .form-control {
-  background: transparent;
   border: 2px solid #ffffff;
   border-radius: 0px;
-  color: #ffffff;
+  color: #000;
   margin-bottom: 16px;
 }
 
 .register input {
   height: 45px;
+  background-color: rgb(250, 255, 189);
 }
 
 .register input[type="submit"] {

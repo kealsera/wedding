@@ -35,7 +35,7 @@ $(document).ready(function() {
     $('#overview').parallax("100%", 0.3);
     $('#detail').parallax("100%", 0.2);
     $('#video').parallax("100%", 0.3);
-    $('#speakers').parallax("100%", 0.1);
+    $('#locations').parallax("100%", 0.1);
     $('#program').parallax("100%", 0.2);
     $('#register').parallax("100%", 0.1);
     $('#faq').parallax("100%", 0.3);
@@ -44,8 +44,9 @@ $(document).ready(function() {
     $('#contact').parallax("100%", 0.2);
 
   }
+  $(document).ready(function() {
   initParallax();
-
+  });
 
   /* Owl Carousel
   -----------------------------------------------*/
